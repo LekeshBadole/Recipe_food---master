@@ -1,43 +1,60 @@
-/* style.css */
-
-/* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    background-color:rgb(245, 246, 236) ;
 }
 
-/* Set a base font and background */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f6fa;
-    color: #222;
-    line-height: 1.6;
-}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    
 
-/* Example container */
-.container {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 24px;
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
 }
-
-/* Example button style */
-.button {
-    display: inline-block;
-    padding: 10px 24px;
-    background: #2563eb;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
+button{
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgb(63, 186, 63);
     cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.2s;
+     width: 50px;
+    height: 28px;
+}
+button:hover{
+    background-color: rgb(45, 230, 45);
+}
+h1{
+    padding: 4px;
+    border-radius: 40%; 
+    background-color: rgb(198, 641, 198);
+    cursor: pointer;
+    height:40px;
+}
+h3{
+   padding: 9%;
+    border-radius: 100%; 
+    background-color: rgb(198, 641, 198);
+    cursor: pointer;
+    height:40px; 
+    text-align: center;
 }
 
-.button:hover {
-    background: #1e40af;
+div img {
+    width: 10px;
+    height: 10px
+
+}
+p{
+     padding: 30px;
+    border-radius: 100px;
+    background-color: rgb(176, 216, 231);
+  
+
+}
+img {
+     padding: 8px;
+    border-radius: 100px;
+    background-color: rgb(176, 216, 231);
+    float: right;
+  
 }
